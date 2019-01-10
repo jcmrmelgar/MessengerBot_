@@ -1,0 +1,33 @@
+-Node
+-Express: para crear nuestro servidor
+-Body-parser: para manejar el flujo de datos que enviaremos y recibiremos
+
+
+Para instalar los paquetes:
+
+npm install express body-parser request
+Para correr nuestra app
+
+nodeapp.js
+
+Utilizamos para el Webhook:
+
+nodemon: 
+Instalamos nodemon de manera global con el siguiente comando:
+
+sudo npm install nodemon
+
+npm install --save-dev nodemon
+Y ahora ya podemos correr el servidor escuchando los cambios del archivo app.js, ejecutando:
+
+nodemon app.js
+
+ngrok: esta herramienta es para poder publicar nuestro proyecto local URL:
+
+Para exponer nuestro servidor con una URL pública, necesitamos:
+
+Crear una cuenta en (ngrok) para obtener un token.
+Descargar el script ngrok y descomprimirlo dentro de nuestro proyecto.
+y luego ejecutamos en una pestaña nueva de nuestra terminal:
+./ngrok http5000 
+
